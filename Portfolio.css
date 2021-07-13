@@ -1,0 +1,73 @@
+/* Title: Portfolio.css 
+   Author: Luke Diehl
+   Created: 6/29/2021
+   Last Updated: 6/29/2021
+*/
+html {scroll-behavior: smooth;}
+body {background-color: #e4e5ed}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    font-size: medium;
+}
+
+/* Name */
+h1 {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    font-size: 50px;
+    padding: -1%;
+}
+
+/* Navigation Bar */
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li {
+    border: double #000000 6px;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 33.33333333%;
+}
+header a {
+    text-decoration: none;
+}
+#navigationBar {
+    background-color: #044191;
+    overflow: hidden;
+    border: double #000000 4px;
+}
+#navigationBar a {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 100%;
+}
+#navigationBar a:hover {
+    background-color: #c9cdd6;
+    color: #000000;
+}
+
+/* Headshot and Introduction */
+#headshot {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    height: 100%;
+    width: 40%;
+    border: solid #000000 2px; 
+    margin: 1%;
+    filter: contrast(1.5);
+    margin-bottom: -1%;
+}
+#top {
+    display: flex;
+}
