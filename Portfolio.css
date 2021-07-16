@@ -17,11 +17,20 @@ h1 {
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     color: #000000;
-    font-size: 50px;
-    padding: -1%;
+    font-size: 300%;
+    margin-top: 0%;
+    margin-bottom: 1%;
 }
 #luke {
     border-bottom: solid 2px #000000;
+}
+h2 {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+    font-size: 175%;
+    margin-top: -1%;
+    margin-bottom: -1%;
 }
 
 /* Navigation Bar */
@@ -32,7 +41,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
-li {
+#navigationBar li {
     border: double #000000 6px;
     font-family: 'Noto Sans JP', sans-serif;
     width: 33.33333333%;
@@ -46,8 +55,8 @@ header a {
     border: double #000000 4px;
 }
 #navigationBar a {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -81,6 +90,13 @@ header a {
     display: flex;
 }
 
+/* Projects */
+#projectsList {
+    display: flex;
+}
+#projectsList img {
+    width: 33.333333333%;
+}
 /* Contact Form */
 input[type=text], select, textarea {
     width: 100%; 
